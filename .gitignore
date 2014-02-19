@@ -1,2 +1,2 @@
-# Compiled output goes here
-target
+# Compiled output goes here, including target directories in subdirs
+target/
