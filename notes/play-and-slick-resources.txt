@@ -1,0 +1,8 @@
+http://sysgears.com/articles/building-rest-service-with-scala/
+http://blog.lunatech.com/2013/08/13/play-slick-scala-console
+https://github.com/lunatech-labs/play-slick-examples
+http://blog.lunatech.com/2013/08/08/play-slick-getting-started
+http://logician.eu/2013/07/08/crud-trait-for-slick-models-in-the-play-framework/
+https://github.com/ThomasAlexandre/playcrud
+http://blog.lunatech.com/2013/09/25/play-slick-defining-queries
+https://github.com/slick/slick-examples/tree/master/src/main/scala/com/typesafe/slick/examples/lifted
