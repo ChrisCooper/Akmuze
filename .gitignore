@@ -2,9 +2,11 @@
 target/
 
 
-# Eclipse and sbt-eclipse
+# Eclipse
 .project
 .classpath
-.cache
 .settings
+.cache
+
+# sbt-eclipse plugin
 .target
