@@ -14,10 +14,15 @@ licenses += "MIT" -> url("http://opensource.org/licenses/MIT")
 
 scalaVersion := "2.10.3"
 
+scalacOptions += "-deprecation"
+
+
 
 libraryDependencies ++= List(
 	"com.typesafe.slick" %% "slick" % "2.0.1-RC1"
 	)
+
+
 
 // Custom task key for printing an encouraging message
 lazy val encourage = taskKey[Unit]("Just help things along")
