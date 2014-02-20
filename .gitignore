@@ -10,3 +10,7 @@ target/
 
 # sbt-eclipse plugin
 .target
+
+
+# Project specific
+experiment.db
