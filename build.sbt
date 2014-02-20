@@ -19,7 +19,8 @@ scalacOptions += "-deprecation"
 
 
 libraryDependencies ++= List(
-	"com.typesafe.slick" %% "slick" % "2.0.1-RC1"
+	"com.typesafe.slick" %% "slick" % "2.0.1-RC1",
+	"org.xerial" % "sqlite-jdbc" % "3.7.2"
 	)
 
 
