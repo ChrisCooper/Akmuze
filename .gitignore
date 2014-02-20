@@ -1,2 +1,10 @@
-# Compiled output goes here, including target directories in subdirs
+# SBT compiled output goes here, including target directories in subdirs
 target/
+
+
+# Eclipse and sbt-eclipse
+.project
+.classpath
+.cache
+.settings
+.target
