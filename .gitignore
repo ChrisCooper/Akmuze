@@ -14,3 +14,6 @@ target/
 
 # Project specific
 experiment.db
+
+# Play framework (https://github.com/github/gitignore/blob/master/PlayFramework.gitignore)
+bin
