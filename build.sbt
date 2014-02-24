@@ -16,17 +16,10 @@ scalaVersion := "2.10.3"
 
 scalacOptions += "-deprecation"
 
+libraryDependencies ++= Seq(
+  jdbc,
+  anorm,
+  cache
+)     
 
-
-libraryDependencies ++= List(
-	"com.typesafe.slick" %% "slick" % "2.0.1-RC1", // Slick database API
-	"org.xerial" % "sqlite-jdbc" % "3.7.2", // SQLite driver	
-	"org.slf4j" % "slf4j-nop" % "1.6.4" // Facade logger for Slick
-	)
-
-
-
-// Custom task key for printing an encouraging message
-lazy val encourage = taskKey[Unit]("Just help things along")
-
-encourage := { println("You can do it!!") }
+play.Project.playScalaSettings
