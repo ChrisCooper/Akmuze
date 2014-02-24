@@ -19,7 +19,9 @@ scalacOptions += "-deprecation"
 libraryDependencies ++= Seq(
   jdbc,
   anorm,
-  cache
+  cache,
+  "org.xerial" % "sqlite-jdbc" % "3.7.2", // SQLite driver
+  "com.typesafe.slick" %% "slick" % "2.0.1-RC1" // Slick database API
 )     
 
 play.Project.playScalaSettings
